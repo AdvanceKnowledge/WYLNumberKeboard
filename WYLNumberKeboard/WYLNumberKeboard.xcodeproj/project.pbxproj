@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		415F56A7F53B2EFDBEBA9A6F /* Pods_WYLNumberKeboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6498F977FE7E85D5A5BC3E /* Pods_WYLNumberKeboard.framework */; };
+		B1C67DEC359512CC000A3E76 /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2588213A29D431BDF74C5F /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework */; };
+		BE7F7783288FEFBA00F19FF2 /* OCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F7781288FEFBA00F19FF2 /* OCVC.m */; };
+		BE7F7784288FEFBA00F19FF2 /* OCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7F7782288FEFBA00F19FF2 /* OCVC.xib */; };
+		BE9E3143288FCA3E00813AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3142288FCA3E00813AAE /* AppDelegate.swift */; };
+		BE9E3145288FCA3E00813AAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3144288FCA3E00813AAE /* SceneDelegate.swift */; };
+		BE9E3147288FCA3E00813AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3146288FCA3E00813AAE /* ViewController.swift */; };
+		BE9E314A288FCA3E00813AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9E3148288FCA3E00813AAE /* Main.storyboard */; };
+		BE9E314C288FCA4000813AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9E314B288FCA4000813AAE /* Assets.xcassets */; };
+		BE9E314F288FCA4000813AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9E314D288FCA4000813AAE /* LaunchScreen.storyboard */; };
+		BE9E315A288FCA4000813AAE /* WYLNumberKeboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3159288FCA4000813AAE /* WYLNumberKeboardTests.swift */; };
+		BE9E3164288FCA4000813AAE /* WYLNumberKeboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3163288FCA4000813AAE /* WYLNumberKeboardUITests.swift */; };
+		BE9E3166288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3165288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift */; };
+		BE9E3174288FCAF900813AAE /* WYLNumberKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3173288FCAF900813AAE /* WYLNumberKeyboardView.swift */; };
+		ED1B2C64949889CB29EE38E9 /* Pods_WYLNumberKeboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21A08B2E011A41AB25C7DCA /* Pods_WYLNumberKeboardTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE9E3156288FCA4000813AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9E3137288FCA3E00813AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9E313E288FCA3E00813AAE;
+			remoteInfo = WYLNumberKeboard;
+		};
+		BE9E3160288FCA4000813AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE9E3137288FCA3E00813AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9E313E288FCA3E00813AAE;
+			remoteInfo = WYLNumberKeboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391EAD188C942C02715B1AE4 /* Pods-WYLNumberKeboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboardTests.release.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboardTests/Pods-WYLNumberKeboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C2588213A29D431BDF74C5F /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9967E9817C05FDBDE47408 /* Pods-WYLNumberKeboard-WYLNumberKeboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard-WYLNumberKeboardUITests.release.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard-WYLNumberKeboardUITests/Pods-WYLNumberKeboard-WYLNumberKeboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48605F8E4CA30831A3D34225 /* Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard-WYLNumberKeboardUITests/Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		740D3B5E8C509E0389CB3771 /* Pods-WYLNumberKeboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard.debug.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard.debug.xcconfig"; sourceTree = "<group>"; };
+		A21A08B2E011A41AB25C7DCA /* Pods_WYLNumberKeboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLNumberKeboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7F7780288FEFBA00F19FF2 /* OCVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCVC.h; sourceTree = "<group>"; };
+		BE7F7781288FEFBA00F19FF2 /* OCVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCVC.m; sourceTree = "<group>"; };
+		BE7F7782288FEFBA00F19FF2 /* OCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCVC.xib; sourceTree = "<group>"; };
+		BE9E313F288FCA3E00813AAE /* WYLNumberKeboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYLNumberKeboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9E3142288FCA3E00813AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE9E3144288FCA3E00813AAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE9E3146288FCA3E00813AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE9E3149288FCA3E00813AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE9E314B288FCA4000813AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE9E314E288FCA4000813AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE9E3150288FCA4000813AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9E3155288FCA4000813AAE /* WYLNumberKeboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYLNumberKeboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9E3159288FCA4000813AAE /* WYLNumberKeboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLNumberKeboardTests.swift; sourceTree = "<group>"; };
+		BE9E315F288FCA4000813AAE /* WYLNumberKeboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYLNumberKeboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9E3163288FCA4000813AAE /* WYLNumberKeboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLNumberKeboardUITests.swift; sourceTree = "<group>"; };
+		BE9E3165288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLNumberKeboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE9E3173288FCAF900813AAE /* WYLNumberKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLNumberKeyboardView.swift; sourceTree = "<group>"; };
+		BE9E3175288FEAD600813AAE /* WYLNumberKeboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYLNumberKeboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3A2D25408A43F86E9851092 /* Pods-WYLNumberKeboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard.release.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard.release.xcconfig"; sourceTree = "<group>"; };
+		D611C636724AAB7D126D913F /* Pods-WYLNumberKeboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboardTests.debug.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboardTests/Pods-WYLNumberKeboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC6498F977FE7E85D5A5BC3E /* Pods_WYLNumberKeboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLNumberKeboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9E313C288FCA3E00813AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415F56A7F53B2EFDBEBA9A6F /* Pods_WYLNumberKeboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9E3152288FCA4000813AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1B2C64949889CB29EE38E9 /* Pods_WYLNumberKeboardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9E315C288FCA4000813AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C67DEC359512CC000A3E76 /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEEF7A922E7BFE1FACFE08D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC6498F977FE7E85D5A5BC3E /* Pods_WYLNumberKeboard.framework */,
+				3C2588213A29D431BDF74C5F /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework */,
+				A21A08B2E011A41AB25C7DCA /* Pods_WYLNumberKeboardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E10A9EE64AD2D0DA8CA241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				740D3B5E8C509E0389CB3771 /* Pods-WYLNumberKeboard.debug.xcconfig */,
+				D3A2D25408A43F86E9851092 /* Pods-WYLNumberKeboard.release.xcconfig */,
+				48605F8E4CA30831A3D34225 /* Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig */,
+				3F9967E9817C05FDBDE47408 /* Pods-WYLNumberKeboard-WYLNumberKeboardUITests.release.xcconfig */,
+				D611C636724AAB7D126D913F /* Pods-WYLNumberKeboardTests.debug.xcconfig */,
+				391EAD188C942C02715B1AE4 /* Pods-WYLNumberKeboardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE9E3136288FCA3E00813AAE = {
+			isa = PBXGroup;
+			children = (
+				BE9E3141288FCA3E00813AAE /* WYLNumberKeboard */,
+				BE9E3158288FCA4000813AAE /* WYLNumberKeboardTests */,
+				BE9E3162288FCA4000813AAE /* WYLNumberKeboardUITests */,
+				BE9E3140288FCA3E00813AAE /* Products */,
+				73E10A9EE64AD2D0DA8CA241 /* Pods */,
+				3CEEF7A922E7BFE1FACFE08D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9E3140288FCA3E00813AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E313F288FCA3E00813AAE /* WYLNumberKeboard.app */,
+				BE9E3155288FCA4000813AAE /* WYLNumberKeboardTests.xctest */,
+				BE9E315F288FCA4000813AAE /* WYLNumberKeboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9E3141288FCA3E00813AAE /* WYLNumberKeboard */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E3172288FCADB00813AAE /* KeyboardView */,
+				BE9E3142288FCA3E00813AAE /* AppDelegate.swift */,
+				BE9E3144288FCA3E00813AAE /* SceneDelegate.swift */,
+				BE9E3146288FCA3E00813AAE /* ViewController.swift */,
+				BE7F7780288FEFBA00F19FF2 /* OCVC.h */,
+				BE7F7781288FEFBA00F19FF2 /* OCVC.m */,
+				BE7F7782288FEFBA00F19FF2 /* OCVC.xib */,
+				BE9E3148288FCA3E00813AAE /* Main.storyboard */,
+				BE9E314B288FCA4000813AAE /* Assets.xcassets */,
+				BE9E314D288FCA4000813AAE /* LaunchScreen.storyboard */,
+				BE9E3150288FCA4000813AAE /* Info.plist */,
+				BE9E3175288FEAD600813AAE /* WYLNumberKeboard-Bridging-Header.h */,
+			);
+			path = WYLNumberKeboard;
+			sourceTree = "<group>";
+		};
+		BE9E3158288FCA4000813AAE /* WYLNumberKeboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E3159288FCA4000813AAE /* WYLNumberKeboardTests.swift */,
+			);
+			path = WYLNumberKeboardTests;
+			sourceTree = "<group>";
+		};
+		BE9E3162288FCA4000813AAE /* WYLNumberKeboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E3163288FCA4000813AAE /* WYLNumberKeboardUITests.swift */,
+				BE9E3165288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift */,
+			);
+			path = WYLNumberKeboardUITests;
+			sourceTree = "<group>";
+		};
+		BE9E3172288FCADB00813AAE /* KeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E3173288FCAF900813AAE /* WYLNumberKeyboardView.swift */,
+			);
+			path = KeyboardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9E313E288FCA3E00813AAE /* WYLNumberKeboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9E3169288FCA4000813AAE /* Build configuration list for PBXNativeTarget "WYLNumberKeboard" */;
+			buildPhases = (
+				C4E37C184C0A9D3760A882C4 /* [CP] Check Pods Manifest.lock */,
+				BE9E313B288FCA3E00813AAE /* Sources */,
+				BE9E313C288FCA3E00813AAE /* Frameworks */,
+				BE9E313D288FCA3E00813AAE /* Resources */,
+				C4C4C2B54C91D0612712497E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYLNumberKeboard;
+			productName = WYLNumberKeboard;
+			productReference = BE9E313F288FCA3E00813AAE /* WYLNumberKeboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE9E3154288FCA4000813AAE /* WYLNumberKeboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9E316C288FCA4000813AAE /* Build configuration list for PBXNativeTarget "WYLNumberKeboardTests" */;
+			buildPhases = (
+				94C99AD05EDB42397B1978FF /* [CP] Check Pods Manifest.lock */,
+				BE9E3151288FCA4000813AAE /* Sources */,
+				BE9E3152288FCA4000813AAE /* Frameworks */,
+				BE9E3153288FCA4000813AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9E3157288FCA4000813AAE /* PBXTargetDependency */,
+			);
+			name = WYLNumberKeboardTests;
+			productName = WYLNumberKeboardTests;
+			productReference = BE9E3155288FCA4000813AAE /* WYLNumberKeboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE9E315E288FCA4000813AAE /* WYLNumberKeboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9E316F288FCA4000813AAE /* Build configuration list for PBXNativeTarget "WYLNumberKeboardUITests" */;
+			buildPhases = (
+				94C015CA40A2020DD7A84E28 /* [CP] Check Pods Manifest.lock */,
+				BE9E315B288FCA4000813AAE /* Sources */,
+				BE9E315C288FCA4000813AAE /* Frameworks */,
+				BE9E315D288FCA4000813AAE /* Resources */,
+				16E13F11ACF50D8B9770E0B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9E3161288FCA4000813AAE /* PBXTargetDependency */,
+			);
+			name = WYLNumberKeboardUITests;
+			productName = WYLNumberKeboardUITests;
+			productReference = BE9E315F288FCA4000813AAE /* WYLNumberKeboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9E3137288FCA3E00813AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BE9E313E288FCA3E00813AAE = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+					BE9E3154288FCA4000813AAE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BE9E313E288FCA3E00813AAE;
+					};
+					BE9E315E288FCA4000813AAE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BE9E313E288FCA3E00813AAE;
+					};
+				};
+			};
+			buildConfigurationList = BE9E313A288FCA3E00813AAE /* Build configuration list for PBXProject "WYLNumberKeboard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE9E3136288FCA3E00813AAE;
+			productRefGroup = BE9E3140288FCA3E00813AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9E313E288FCA3E00813AAE /* WYLNumberKeboard */,
+				BE9E3154288FCA4000813AAE /* WYLNumberKeboardTests */,
+				BE9E315E288FCA4000813AAE /* WYLNumberKeboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE9E313D288FCA3E00813AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7F7784288FEFBA00F19FF2 /* OCVC.xib in Resources */,
+				BE9E314F288FCA4000813AAE /* LaunchScreen.storyboard in Resources */,
+				BE9E314C288FCA4000813AAE /* Assets.xcassets in Resources */,
+				BE9E314A288FCA3E00813AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9E3153288FCA4000813AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9E315D288FCA4000813AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E13F11ACF50D8B9770E0B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYLNumberKeboard-WYLNumberKeboardUITests/Pods-WYLNumberKeboard-WYLNumberKeboardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYLNumberKeboard-WYLNumberKeboardUITests/Pods-WYLNumberKeboard-WYLNumberKeboardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WYLNumberKeboard-WYLNumberKeboardUITests/Pods-WYLNumberKeboard-WYLNumberKeboardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C015CA40A2020DD7A84E28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYLNumberKeboard-WYLNumberKeboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C99AD05EDB42397B1978FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYLNumberKeboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C4C2B54C91D0612712497E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E37C184C0A9D3760A882C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYLNumberKeboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE9E313B288FCA3E00813AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7F7783288FEFBA00F19FF2 /* OCVC.m in Sources */,
+				BE9E3147288FCA3E00813AAE /* ViewController.swift in Sources */,
+				BE9E3143288FCA3E00813AAE /* AppDelegate.swift in Sources */,
+				BE9E3145288FCA3E00813AAE /* SceneDelegate.swift in Sources */,
+				BE9E3174288FCAF900813AAE /* WYLNumberKeyboardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9E3151288FCA4000813AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9E315A288FCA4000813AAE /* WYLNumberKeboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9E315B288FCA4000813AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9E3164288FCA4000813AAE /* WYLNumberKeboardUITests.swift in Sources */,
+				BE9E3166288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE9E3157288FCA4000813AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9E313E288FCA3E00813AAE /* WYLNumberKeboard */;
+			targetProxy = BE9E3156288FCA4000813AAE /* PBXContainerItemProxy */;
+		};
+		BE9E3161288FCA4000813AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE9E313E288FCA3E00813AAE /* WYLNumberKeboard */;
+			targetProxy = BE9E3160288FCA4000813AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE9E3148288FCA3E00813AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9E3149288FCA3E00813AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE9E314D288FCA4000813AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9E314E288FCA4000813AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE9E3167288FCA4000813AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE9E3168288FCA4000813AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE9E316A288FCA4000813AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740D3B5E8C509E0389CB3771 /* Pods-WYLNumberKeboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WYLNumberKeboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huizhi.com.WYLNumberKeboard.WYLNumberKeboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WYLNumberKeboard/WYLNumberKeboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE9E316B288FCA4000813AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A2D25408A43F86E9851092 /* Pods-WYLNumberKeboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WYLNumberKeboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huizhi.com.WYLNumberKeboard.WYLNumberKeboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WYLNumberKeboard/WYLNumberKeboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE9E316D288FCA4000813AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D611C636724AAB7D126D913F /* Pods-WYLNumberKeboardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huizhi.com.WYLNumberKeboard.WYLNumberKeboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYLNumberKeboard.app/WYLNumberKeboard";
+			};
+			name = Debug;
+		};
+		BE9E316E288FCA4000813AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391EAD188C942C02715B1AE4 /* Pods-WYLNumberKeboardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huizhi.com.WYLNumberKeboard.WYLNumberKeboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYLNumberKeboard.app/WYLNumberKeboard";
+			};
+			name = Release;
+		};
+		BE9E3170288FCA4000813AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48605F8E4CA30831A3D34225 /* Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huizhi.com.WYLNumberKeboard.WYLNumberKeboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYLNumberKeboard;
+			};
+			name = Debug;
+		};
+		BE9E3171288FCA4000813AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9967E9817C05FDBDE47408 /* Pods-WYLNumberKeboard-WYLNumberKeboardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L8E4NLY72;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huizhi.com.WYLNumberKeboard.WYLNumberKeboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYLNumberKeboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE9E313A288FCA3E00813AAE /* Build configuration list for PBXProject "WYLNumberKeboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9E3167288FCA4000813AAE /* Debug */,
+				BE9E3168288FCA4000813AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9E3169288FCA4000813AAE /* Build configuration list for PBXNativeTarget "WYLNumberKeboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9E316A288FCA4000813AAE /* Debug */,
+				BE9E316B288FCA4000813AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9E316C288FCA4000813AAE /* Build configuration list for PBXNativeTarget "WYLNumberKeboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9E316D288FCA4000813AAE /* Debug */,
+				BE9E316E288FCA4000813AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9E316F288FCA4000813AAE /* Build configuration list for PBXNativeTarget "WYLNumberKeboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9E3170288FCA4000813AAE /* Debug */,
+				BE9E3171288FCA4000813AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9E3137288FCA3E00813AAE /* Project object */;
+}
