@@ -1,14 +1,25 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
+ platform :ios, '10.0'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 target 'WYLNumberKeboard' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-
-pod 'SnapKit', '~> 4.2.0'
-
   # Pods for WYLNumberKeboard
+
+#pod 'SDWebImage', '~> 5.0.0-beta3'
+pod 'MJRefresh', '~> 3.1.15.7'
+pod 'SVProgressHUD', '~> 2.2.5'
+pod 'IQKeyboardManager', '~> 6.2.0'
+pod 'BlocksKit', '~> 2.2.5'
+pod 'SnapKit', '~> 4.2.0'
+pod 'SHFullscreenPopGestureSwift', '~> 1.2.1'
+#pod 'RxSwift', '~> 4.4.0'
+pod 'RxCocoa', '~> 4.4.0'
+#pod 'RxDataSources', '~> 3.1.0'
+pod 'HandyJSON', '~> 5.0.0-beta.1'#转换 json与模型
+pod 'Alamofire', '~> 5.0.0-beta.6' #网络请求
+
 
   target 'WYLNumberKeboardTests' do
     inherit! :search_paths

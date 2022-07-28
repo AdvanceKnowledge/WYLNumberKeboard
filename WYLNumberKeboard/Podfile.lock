@@ -1,16 +1,66 @@
 PODS:
+  - Alamofire (5.0.5)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - HandyJSON (5.0.4-beta)
+  - IQKeyboardManager (6.2.1)
+  - MJRefresh (3.1.15.7)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SHFullscreenPopGestureSwift (1.2.1)
   - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.0.0-beta.6)
+  - BlocksKit (~> 2.2.5)
+  - HandyJSON (~> 5.0.0-beta.1)
+  - IQKeyboardManager (~> 6.2.0)
+  - MJRefresh (~> 3.1.15.7)
+  - RxCocoa (~> 4.4.0)
+  - SHFullscreenPopGestureSwift (~> 1.2.1)
   - SnapKit (~> 4.2.0)
+  - SVProgressHUD (~> 2.2.5)
 
 SPEC REPOS:
-  trunk:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - BlocksKit
+    - HandyJSON
+    - IQKeyboardManager
+    - MJRefresh
+    - RxCocoa
+    - RxSwift
+    - SHFullscreenPopGestureSwift
     - SnapKit
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  HandyJSON: a9c67202df97805a0ba4a00e30b50e9a30ac28f3
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SHFullscreenPopGestureSwift: 96c20749695c8fbf14a29feb5ece469d7a909a41
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: f8e9a79ff193dbddd4385d0e3d5c538f0c6c1d38
+PODFILE CHECKSUM: eeefedc8a1f40eefe5d42430ff1175b9526a3418
 
 COCOAPODS: 1.11.3

@@ -129,7 +129,6 @@ class WYLNumberKeyboardView: UIView {
         
     }
     
-    
     func handleField(currentTextField: UITextField, currentTitle: String) {
         guard let text = currentTextField.text else {
             return
@@ -142,32 +141,10 @@ class WYLNumberKeyboardView: UIView {
             self.withdrawalBlcok!(nil)
             return
         } else {
-            
-            /// 4.检查小数点后位数限制 (小数点后最多输入2位)
-            if let ran = text.range(of: "."), text.count - NSRange(ran, in: text).location > 2 {
-                return
-            }
-            
-            /// 5.检查首位输入是否为0
-            if text == "0", currentTitle != "." {
-                currentTextField.text = currentTitle
-                return
-            }
-            
-            /// a.首位小数点替换为0.
-            if text.count == 0, currentTitle == "." {
-                currentTextField.text = "0."
-                return
-            }
-            
-            /// b.禁止多次输入小数点
-            if text.range(of: ".") != nil, currentTitle == "." {
-                return
-            }
-            currentTextField.text = (currentTextField.text ?? "") + currentTitle
+            currentTextField.text = validationInputContent(text: text,
+                                                           currentTitle: currentTitle,
+                                                           currentContent: currentTextField.text)
         }
-        
-        
         
         if currentTextField.text?.count != 0 {
             dwithdrawalButton.isEnabled = true
@@ -191,28 +168,9 @@ class WYLNumberKeyboardView: UIView {
             return
         } else {
             
-            /// 4.检查小数点后位数限制 (小数点后最多输入2位)
-            if let ran = text.range(of: "."), text.count - NSRange(ran, in: text).location > 2 {
-                return
-            }
-            
-            /// 5.检查首位输入是否为0
-            if text == "0", currentTitle != "." {
-                currentTextView.text = currentTitle
-                return
-            }
-
-            /// a.首位小数点替换为0.
-            if text.count == 0, currentTitle == "." {
-                currentTextView.text = "0."
-                return
-            }
-            
-            /// b.禁止多次输入小数点
-            if text.range(of: ".") != nil, currentTitle == "." {
-                return
-            }
-            currentTextView.text = (currentTextView.text ?? "") + currentTitle
+            currentTextView.text = validationInputContent(text: text,
+                                                          currentTitle: currentTitle,
+                                                          currentContent: currentTextView.text)
         }
         
         if currentTextView.text?.count != 0 {
@@ -220,6 +178,33 @@ class WYLNumberKeyboardView: UIView {
         } else {
             dwithdrawalButton.isEnabled = false
         }
+    }
+    
+    func validationInputContent(text: String, currentTitle: String, currentContent: String?) -> String? {
+        /// 4.检查小数点后位数限制 (小数点后最多输入2位)
+        if let ran = text.range(of: "."), text.count - NSRange(ran, in: text).location > 2 {
+            return currentContent
+        }
+        
+        /// 5.检查首位输入是否为0
+        if text == "0", currentTitle != "." {
+            
+            return currentTitle
+        }
+
+        /// a.首位小数点替换为0.
+        if text.count == 0, currentTitle == "." {
+            
+            return "0."
+        }
+        
+        /// b.禁止多次输入小数点
+        if text.range(of: ".") != nil, currentTitle == "." {
+            return currentContent
+        }
+        let cotent = (currentContent ?? "") + currentTitle
+        
+        return cotent
     }
     
     /// 颜色生成图片
