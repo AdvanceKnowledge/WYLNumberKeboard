@@ -15,12 +15,14 @@ class WYLNumberKeyboardView: UIView {
     
     var withdrawalBlcok: OneParameterBlock?
     
-    
     private let keyboardScreenHeight = UIScreen.main.bounds.size.height
     private let keyboardScreenWidth = UIScreen.main.bounds.size.width
     private var dwithdrawalButton = UIButton()
     /// 单个按钮的基本宽度
     private let itemWidth = (UIScreen.main.bounds.size.width - 50.0)/4.0
+    
+    private let itemHegiht = 50
+    
     private let lineSpace = 10.0
     @objc init(_ textField: UITextField?, _ textView: UITextView?, _ withdrawalBlcok: OneParameterBlock?) {
 
@@ -45,8 +47,8 @@ class WYLNumberKeyboardView: UIView {
             self.addSubview(button)
             button.snp.makeConstraints { make in
                 make.width.equalTo(itemWidth)
-                make.height.equalTo(50)
-                make.top.equalToSuperview().inset(Int(lineSpace) + (shang * (50 + Int(lineSpace))))
+                make.height.equalTo(itemHegiht)
+                make.top.equalToSuperview().inset(Int(lineSpace) + (shang * (itemHegiht + Int(lineSpace))))
                 make.left.equalTo(Int(lineSpace) + (remainder * (Int(itemWidth) + Int(lineSpace))))
             }
             lastbtn = button
@@ -57,7 +59,7 @@ class WYLNumberKeyboardView: UIView {
         zeroButton.snp.makeConstraints { make in
             make.left.equalToSuperview().inset(lineSpace)
             make.width.equalTo(2 * itemWidth + lineSpace)
-            make.height.equalTo(50)
+            make.height.equalTo(itemHegiht)
             make.top.equalTo(lastbtn.snp.bottom).offset(lineSpace)
         }
         
@@ -66,7 +68,7 @@ class WYLNumberKeyboardView: UIView {
         pointButton.snp.makeConstraints { make in
             make.left.equalTo(zeroButton.snp.right).offset(lineSpace)
             make.width.equalTo(itemWidth)
-            make.height.equalTo(50)
+            make.height.equalTo(itemHegiht)
             make.top.equalTo(lastbtn.snp.bottom).offset(lineSpace)
         }
         
@@ -76,14 +78,16 @@ class WYLNumberKeyboardView: UIView {
         deleteButton.snp.makeConstraints { make in
             make.left.equalTo(lastbtn.snp.right).offset(lineSpace)
             make.width.equalTo(itemWidth)
-            make.height.equalTo(50)
+            make.height.equalTo(itemHegiht)
             make.top.equalToSuperview().inset(lineSpace)
         }
         
         
-        let normalIg = colorToImage(color: UIColor.init(red: 116/255, green: 118/255, blue: 220/255, alpha: 1), size: CGSize(width: 50, height: 50))
+        let normalIg = colorToImage(color: UIColor.init(red: 116/255, green: 118/255, blue: 220/255, alpha: 1),
+                                    size: CGSize(width: 50, height: 50))
         
-        let disIg = colorToImage(color: UIColor.init(red: 200/255, green: 200/255, blue: 234/255, alpha: 1), size: CGSize(width: 50, height: 50))
+        let disIg = colorToImage(color: UIColor.init(red: 200/255, green: 200/255, blue: 234/255, alpha: 1),
+                                 size: CGSize(width: 50, height: 50))
         
         dwithdrawalButton = createItem(title: "提现")
         dwithdrawalButton.setBackgroundImage(normalIg, for: .normal)
@@ -94,7 +98,7 @@ class WYLNumberKeyboardView: UIView {
         dwithdrawalButton.snp.makeConstraints { make in
             make.left.equalTo(lastbtn.snp.right).offset(lineSpace)
             make.width.equalTo(itemWidth)
-            make.height.equalTo((50 * 3) + (lineSpace * 2))
+            make.height.equalTo((itemHegiht * 3) + (Int(lineSpace) * 2))
             make.top.equalTo(deleteButton.snp.bottom).offset(lineSpace)
         }
     }
@@ -108,8 +112,12 @@ class WYLNumberKeyboardView: UIView {
         button.backgroundColor = .white
         button.layer.cornerRadius = 5
         button.clipsToBounds = true
-        button.addTarget(self, action: #selector(clickAction(sender:)), for: .touchUpInside)
-        let highlightedIg = colorToImage(color: UIColor.init(red: 155/255, green: 155/255, blue: 155/255, alpha: 0.3), size: CGSize(width: itemWidth, height: 50))
+        button.addTarget(self, action: #selector(clickAction(sender:)),
+                         for: .touchUpInside)
+        
+        let highlightedIg = colorToImage(color: UIColor.init(red: 155/255, green: 155/255, blue: 155/255, alpha: 0.3),
+                                         size: CGSize(width: itemWidth, height: CGFloat(itemHegiht)))
+        
         button.imageView?.contentMode = .scaleToFill
         button.setBackgroundImage(highlightedIg, for: .highlighted)
         return button
@@ -146,8 +154,6 @@ class WYLNumberKeyboardView: UIView {
         currentTextView.text = validationInputContent(text: text,
                                                       currentTitle: currentTitle,
                                                       currentContent: currentTextView.text)
-        
-        
     }
     
     func validationInputContent(text: String, currentTitle: String, currentContent: String?) -> String? {
@@ -156,7 +162,7 @@ class WYLNumberKeyboardView: UIView {
             if content.count != 0 {
                 content.removeLast()
             }
-            return currentContent
+            return content
 
         } else if currentTitle == "提现" {
             self.withdrawalBlcok!(nil)
