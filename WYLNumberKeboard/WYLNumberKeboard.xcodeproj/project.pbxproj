@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		415F56A7F53B2EFDBEBA9A6F /* Pods_WYLNumberKeboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6498F977FE7E85D5A5BC3E /* Pods_WYLNumberKeboard.framework */; };
 		B1C67DEC359512CC000A3E76 /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2588213A29D431BDF74C5F /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework */; };
+		BE0F59CF289A738A007B68DD /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F59CE289A738A007B68DD /* MyView.swift */; };
+		BE34A87128A48B5E0020653A /* EliminateIfElse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34A87028A48B5E0020653A /* EliminateIfElse.swift */; };
+		BE34A87328A4A1050020653A /* MBProgressHUDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34A87228A4A1050020653A /* MBProgressHUDExtension.swift */; };
+		BE34A87528A4A5040020653A /* loading_dynamic_icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE34A87428A4A5040020653A /* loading_dynamic_icon.gif */; };
 		BE7F7783288FEFBA00F19FF2 /* OCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F7781288FEFBA00F19FF2 /* OCVC.m */; };
 		BE7F7784288FEFBA00F19FF2 /* OCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7F7782288FEFBA00F19FF2 /* OCVC.xib */; };
 		BE9E3143288FCA3E00813AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3142288FCA3E00813AAE /* AppDelegate.swift */; };
@@ -48,6 +52,10 @@
 		48605F8E4CA30831A3D34225 /* Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard-WYLNumberKeboardUITests/Pods-WYLNumberKeboard-WYLNumberKeboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		740D3B5E8C509E0389CB3771 /* Pods-WYLNumberKeboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard.debug.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard.debug.xcconfig"; sourceTree = "<group>"; };
 		A21A08B2E011A41AB25C7DCA /* Pods_WYLNumberKeboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLNumberKeboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0F59CE289A738A007B68DD /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		BE34A87028A48B5E0020653A /* EliminateIfElse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminateIfElse.swift; sourceTree = "<group>"; };
+		BE34A87228A4A1050020653A /* MBProgressHUDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDExtension.swift; sourceTree = "<group>"; };
+		BE34A87428A4A5040020653A /* loading_dynamic_icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_dynamic_icon.gif; sourceTree = "<group>"; };
 		BE7F7780288FEFBA00F19FF2 /* OCVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCVC.h; sourceTree = "<group>"; };
 		BE7F7781288FEFBA00F19FF2 /* OCVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCVC.m; sourceTree = "<group>"; };
 		BE7F7782288FEFBA00F19FF2 /* OCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCVC.xib; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 				BE9E3142288FCA3E00813AAE /* AppDelegate.swift */,
 				BE9E3144288FCA3E00813AAE /* SceneDelegate.swift */,
 				BE9E3146288FCA3E00813AAE /* ViewController.swift */,
+				BE0F59CE289A738A007B68DD /* MyView.swift */,
+				BE34A87028A48B5E0020653A /* EliminateIfElse.swift */,
+				BE34A87228A4A1050020653A /* MBProgressHUDExtension.swift */,
+				BE34A87428A4A5040020653A /* loading_dynamic_icon.gif */,
 				BE7F7780288FEFBA00F19FF2 /* OCVC.h */,
 				BE7F7781288FEFBA00F19FF2 /* OCVC.m */,
 				BE7F7782288FEFBA00F19FF2 /* OCVC.xib */,
@@ -302,6 +314,7 @@
 				BE9E314F288FCA4000813AAE /* LaunchScreen.storyboard in Resources */,
 				BE9E314C288FCA4000813AAE /* Assets.xcassets in Resources */,
 				BE9E314A288FCA3E00813AAE /* Main.storyboard in Resources */,
+				BE34A87528A4A5040020653A /* loading_dynamic_icon.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +442,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0F59CF289A738A007B68DD /* MyView.swift in Sources */,
+				BE34A87328A4A1050020653A /* MBProgressHUDExtension.swift in Sources */,
 				BE7F7783288FEFBA00F19FF2 /* OCVC.m in Sources */,
 				BE9E3147288FCA3E00813AAE /* ViewController.swift in Sources */,
 				BE9E3143288FCA3E00813AAE /* AppDelegate.swift in Sources */,
 				BE9E3145288FCA3E00813AAE /* SceneDelegate.swift in Sources */,
+				BE34A87128A48B5E0020653A /* EliminateIfElse.swift in Sources */,
 				BE9E3174288FCAF900813AAE /* WYLNumberKeyboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,7 +24,7 @@ class WYLNumberKeyboardView: UIView {
     private let itemHegiht = 50
     
     private let lineSpace = 10.0
-    @objc init(_ textField: UITextField?, _ textView: UITextView?, _ withdrawalBlcok: OneParameterBlock?) {
+    @objc init(_ textField: UITextField?, _ textView: UITextView?, _ withdrawalBlcok:  OneParameterBlock?) {
 
         super.init(frame: .zero)
         self.textField = textField

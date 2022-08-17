@@ -7,9 +7,10 @@
 
 #import "OCVC.h"
 #import "WYLNumberKeboard-Swift.h"
+#import "Masonry.h"
 @interface OCVC ()
 @property (weak, nonatomic) IBOutlet UITextField *myTextField;
-
+@property (strong, nonatomic) UITextView *myTextView;
 @end
 
 @implementation OCVC
@@ -19,10 +20,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    WYLNumberKeyboardView *keyBoard = [[WYLNumberKeyboardView alloc] init:self.myTextField :nil :^(id _Nullable) {
+    WYLNumberKeyboardView *keyBoard = [[WYLNumberKeyboardView alloc] init:self.myTextField :nil :^(id _Nullable any) {
         NSLog(@"提现");
     }];
     _myTextField.inputView = keyBoard;
+    _myTextView = [[UITextView alloc]init];
+    _myTextView.scrollEnabled = NO;
+    _myTextView.backgroundColor = [UIColor redColor];
+    _myTextView.inputView = [[WYLNumberKeyboardView alloc] init:nil :self.myTextView :^(id _Nullable any) {
+        NSLog(@"提现");
+    }];
+    
+    [self.view addSubview:_myTextView];
+    [_myTextView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.offset(20);
+        make.right.offset(-20);
+        make.top.equalTo(_myTextField.mas_bottom).offset(400);
+        make.height.mas_greaterThanOrEqualTo(50);
+    }];
+    
 }
 
 /*

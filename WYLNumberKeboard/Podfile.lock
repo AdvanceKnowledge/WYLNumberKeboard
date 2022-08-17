@@ -15,12 +15,18 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - FLAnimatedImage (1.0.16)
   - HandyJSON (5.0.4-beta)
   - IQKeyboardManager (6.2.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
   - MJRefresh (3.1.15.7)
   - RxCocoa (4.4.2):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
   - SHFullscreenPopGestureSwift (1.2.1)
   - SnapKit (4.2.0)
   - SVProgressHUD (2.2.5)
@@ -28,10 +34,14 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-beta.6)
   - BlocksKit (~> 2.2.5)
+  - FLAnimatedImage (~> 1.0.16)
   - HandyJSON (~> 5.0.0-beta.1)
   - IQKeyboardManager (~> 6.2.0)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.2.0)
   - MJRefresh (~> 3.1.15.7)
   - RxCocoa (~> 4.4.0)
+  - SDWebImage (~> 5.13.2)
   - SHFullscreenPopGestureSwift (~> 1.2.1)
   - SnapKit (~> 4.2.0)
   - SVProgressHUD (~> 2.2.5)
@@ -40,11 +50,15 @@ SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - Alamofire
     - BlocksKit
+    - FLAnimatedImage
     - HandyJSON
     - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
     - MJRefresh
     - RxCocoa
     - RxSwift
+    - SDWebImage
     - SHFullscreenPopGestureSwift
     - SnapKit
     - SVProgressHUD
@@ -52,15 +66,19 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
   HandyJSON: a9c67202df97805a0ba4a00e30b50e9a30ac28f3
   IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
   SHFullscreenPopGestureSwift: 96c20749695c8fbf14a29feb5ece469d7a909a41
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: eeefedc8a1f40eefe5d42430ff1175b9526a3418
+PODFILE CHECKSUM: af0507025fa985a74b302de71650d9ba94f151c7
 
 COCOAPODS: 1.11.3
