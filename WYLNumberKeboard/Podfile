@@ -22,6 +22,9 @@ pod 'Alamofire', '~> 5.0.0-beta.6' #网络请求
 pod 'Masonry', '~> 1.1.0'
 pod 'MBProgressHUD', '~> 1.2.0'
 
+
+pod 'ORCharts', '~> 2.1.8' #统计图
+
 pod 'FLAnimatedImage', '~> 1.0.16'
 pod 'SDWebImage', '~> 5.13.2'
   target 'WYLNumberKeboardTests' do

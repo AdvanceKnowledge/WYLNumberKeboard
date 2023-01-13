@@ -21,6 +21,15 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.1.15.7)
+  - ORCharts (2.1.8):
+    - ORCharts/Line (= 2.1.8)
+    - ORCharts/Ring (= 2.1.8)
+    - ORCharts/Util (= 2.1.8)
+  - ORCharts/Line (2.1.8):
+    - ORCharts/Util
+  - ORCharts/Ring (2.1.8):
+    - ORCharts/Util
+  - ORCharts/Util (2.1.8)
   - RxCocoa (4.4.2):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
@@ -40,6 +49,7 @@ DEPENDENCIES:
   - Masonry (~> 1.1.0)
   - MBProgressHUD (~> 1.2.0)
   - MJRefresh (~> 3.1.15.7)
+  - ORCharts (~> 2.1.8)
   - RxCocoa (~> 4.4.0)
   - SDWebImage (~> 5.13.2)
   - SHFullscreenPopGestureSwift (~> 1.2.1)
@@ -56,6 +66,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - ORCharts
     - RxCocoa
     - RxSwift
     - SDWebImage
@@ -72,6 +83,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  ORCharts: af561ca7e1692178be3a5c8e68c667dabd971b04
   RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
@@ -79,6 +91,6 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: af0507025fa985a74b302de71650d9ba94f151c7
+PODFILE CHECKSUM: 35fc196265800a03ecfe001282d3a67124df2f03
 
 COCOAPODS: 1.11.3

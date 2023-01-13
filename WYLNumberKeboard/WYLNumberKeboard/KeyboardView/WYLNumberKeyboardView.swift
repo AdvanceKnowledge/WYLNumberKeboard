@@ -161,11 +161,14 @@ class WYLNumberKeyboardView: UIView {
         if currentTitle == "" {
             if content.count != 0 {
                 content.removeLast()
+                if content.count == 0 {
+                    dwithdrawalButton.isEnabled = false
+                }
             }
             return content
 
         } else if currentTitle == "提现" {
-            self.withdrawalBlcok!(nil)
+            self.withdrawalBlcok!(currentContent)
             return currentContent
         }
         

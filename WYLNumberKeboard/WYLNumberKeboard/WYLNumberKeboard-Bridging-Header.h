@@ -6,3 +6,6 @@
 #import <FLAnimatedImage/FLAnimatedImage.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <SDWebImage/SDImageGIFCoder.h>
+#import "ORRingChartView.h"
+#import "YFRippleViewController.h"
+#import "YFSnowViewController.h"

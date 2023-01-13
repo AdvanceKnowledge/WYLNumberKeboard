@@ -10,6 +10,29 @@
 		415F56A7F53B2EFDBEBA9A6F /* Pods_WYLNumberKeboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6498F977FE7E85D5A5BC3E /* Pods_WYLNumberKeboard.framework */; };
 		B1C67DEC359512CC000A3E76 /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2588213A29D431BDF74C5F /* Pods_WYLNumberKeboard_WYLNumberKeboardUITests.framework */; };
 		BE0F59CF289A738A007B68DD /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F59CE289A738A007B68DD /* MyView.swift */; };
+		BE2A5C3028ADEC3200A33CA6 /* UIKit.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C1928ADEC3200A33CA6 /* UIKit.md */; };
+		BE2A5C3128ADEC3300A33CA6 /* Network.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C1A28ADEC3200A33CA6 /* Network.md */; };
+		BE2A5C3228ADEC3300A33CA6 /* Data-storage.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C1B28ADEC3200A33CA6 /* Data-storage.md */; };
+		BE2A5C3328ADEC3300A33CA6 /* Animation.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C1C28ADEC3200A33CA6 /* Animation.md */; };
+		BE2A5C3428ADEC3300A33CA6 /* Message-passing.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C1D28ADEC3200A33CA6 /* Message-passing.md */; };
+		BE2A5C3528ADEC3300A33CA6 /* Multi-thread.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C1E28ADEC3200A33CA6 /* Multi-thread.md */; };
+		BE2A5C3628ADEC3300A33CA6 /* WebView.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C1F28ADEC3200A33CA6 /* WebView.md */; };
+		BE2A5C3728ADEC3300A33CA6 /* Runloop.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2028ADEC3200A33CA6 /* Runloop.md */; };
+		BE2A5C3828ADEC3300A33CA6 /* Code-management.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2128ADEC3200A33CA6 /* Code-management.md */; };
+		BE2A5C3928ADEC3300A33CA6 /* Performance-optimization.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2228ADEC3200A33CA6 /* Performance-optimization.md */; };
+		BE2A5C3A28ADEC3300A33CA6 /* Image-processing.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2328ADEC3200A33CA6 /* Image-processing.md */; };
+		BE2A5C3B28ADEC3300A33CA6 /* Memory-management.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2428ADEC3200A33CA6 /* Memory-management.md */; };
+		BE2A5C3C28ADEC3300A33CA6 /* Data-structure.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2528ADEC3200A33CA6 /* Data-structure.md */; };
+		BE2A5C3D28ADEC3300A33CA6 /* Component-based.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2628ADEC3200A33CA6 /* Component-based.md */; };
+		BE2A5C3E28ADEC3300A33CA6 /* Arithmetic.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2728ADEC3200A33CA6 /* Arithmetic.md */; };
+		BE2A5C3F28ADEC3300A33CA6 /* Design-patterns.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2828ADEC3200A33CA6 /* Design-patterns.md */; };
+		BE2A5C4028ADEC3300A33CA6 /* Source-code.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2928ADEC3200A33CA6 /* Source-code.md */; };
+		BE2A5C4128ADEC3300A33CA6 /* Foundation.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2A28ADEC3200A33CA6 /* Foundation.md */; };
+		BE2A5C4228ADEC3300A33CA6 /* Continuous-integration.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2B28ADEC3200A33CA6 /* Continuous-integration.md */; };
+		BE2A5C4328ADEC3300A33CA6 /* Data-encryption.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2C28ADEC3200A33CA6 /* Data-encryption.md */; };
+		BE2A5C4428ADEC3300A33CA6 /* Project-organization.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2D28ADEC3200A33CA6 /* Project-organization.md */; };
+		BE2A5C4528ADEC3300A33CA6 /* Runtime.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2E28ADEC3200A33CA6 /* Runtime.md */; };
+		BE2A5C4628ADEC3300A33CA6 /* Debug-tips.md in Resources */ = {isa = PBXBuildFile; fileRef = BE2A5C2F28ADEC3200A33CA6 /* Debug-tips.md */; };
 		BE34A87128A48B5E0020653A /* EliminateIfElse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34A87028A48B5E0020653A /* EliminateIfElse.swift */; };
 		BE34A87328A4A1050020653A /* MBProgressHUDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34A87228A4A1050020653A /* MBProgressHUDExtension.swift */; };
 		BE34A87528A4A5040020653A /* loading_dynamic_icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE34A87428A4A5040020653A /* loading_dynamic_icon.gif */; };
@@ -25,6 +48,42 @@
 		BE9E3164288FCA4000813AAE /* WYLNumberKeboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3163288FCA4000813AAE /* WYLNumberKeboardUITests.swift */; };
 		BE9E3166288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3165288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift */; };
 		BE9E3174288FCAF900813AAE /* WYLNumberKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E3173288FCAF900813AAE /* WYLNumberKeyboardView.swift */; };
+		BEA58A9C2942E66A003FF9A6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA58A9B2942E66A003FF9A6 /* String+Extension.swift */; };
+		BEBE788829484A5D00A163C8 /* YFSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE786929484A5C00A163C8 /* YFSnowViewController.m */; };
+		BEBE788929484A5D00A163C8 /* YFEmitterRainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE786D29484A5C00A163C8 /* YFEmitterRainCell.m */; };
+		BEBE788A29484A5D00A163C8 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBE786F29484A5C00A163C8 /* rain.png */; };
+		BEBE788B29484A5D00A163C8 /* YFEmitterLeavesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE787129484A5C00A163C8 /* YFEmitterLeavesCell.m */; };
+		BEBE788C29484A5D00A163C8 /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBE787329484A5C00A163C8 /* leaves.png */; };
+		BEBE788D29484A5D00A163C8 /* YFPublicParticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE787529484A5C00A163C8 /* YFPublicParticleCell.m */; };
+		BEBE788E29484A5D00A163C8 /* YFEmitterCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE787829484A5C00A163C8 /* YFEmitterCustomLayer.m */; };
+		BEBE788F29484A5D00A163C8 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBE787C29484A5C00A163C8 /* snow.png */; };
+		BEBE789029484A5D00A163C8 /* YFEmitterSnowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE787D29484A5C00A163C8 /* YFEmitterSnowCell.m */; };
+		BEBE789129484A5D00A163C8 /* YFAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE787F29484A5C00A163C8 /* YFAnimationManager.m */; };
+		BEBE789329484A5D00A163C8 /* XXBRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE788529484A5D00A163C8 /* XXBRippleView.m */; };
+		BEBE789429484A5D00A163C8 /* YFRippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE788629484A5D00A163C8 /* YFRippleViewController.m */; };
+		BEBE78CA29484B1A00A163C8 /* placeholder30.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBE789829484B1A00A163C8 /* placeholder30.png */; };
+		BEBE78CB29484B1A00A163C8 /* YFButtonCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE789929484B1A00A163C8 /* YFButtonCategoryViewController.m */; };
+		BEBE78CC29484B1A00A163C8 /* UIButton+TitlePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE789A29484B1A00A163C8 /* UIButton+TitlePosition.m */; };
+		BEBE78CD29484B1A00A163C8 /* YFEmptyDataSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE789E29484B1A00A163C8 /* YFEmptyDataSetViewController.m */; };
+		BEBE78CE29484B1A00A163C8 /* YFEmptyDataSetViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE789F29484B1A00A163C8 /* YFEmptyDataSetViewController.storyboard */; };
+		BEBE78CF29484B1A00A163C8 /* placeholder_fancy.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBE78A129484B1A00A163C8 /* placeholder_fancy.png */; };
+		BEBE78D029484B1A00A163C8 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78A229484B1A00A163C8 /* UIScrollView+EmptyDataSet.m */; };
+		BEBE78D129484B1A00A163C8 /* UITableView+Gzw.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78A329484B1A00A163C8 /* UITableView+Gzw.m */; };
+		BEBE78D229484B1A00A163C8 /* placeholder_fancy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBE78A529484B1A00A163C8 /* placeholder_fancy@2x.png */; };
+		BEBE78D329484B1A00A163C8 /* YFColorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE78AB29484B1A00A163C8 /* YFColorViewController.storyboard */; };
+		BEBE78D429484B1A00A163C8 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78AC29484B1A00A163C8 /* UIColor+Extension.m */; };
+		BEBE78D529484B1A00A163C8 /* YFColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78AD29484B1A00A163C8 /* YFColorViewController.m */; };
+		BEBE78D729484B1A00A163C8 /* UIImage+EXtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78B129484B1A00A163C8 /* UIImage+EXtension.m */; };
+		BEBE78D829484B1A00A163C8 /* UIImage+CJZ.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78B329484B1A00A163C8 /* UIImage+CJZ.m */; };
+		BEBE78D929484B1A00A163C8 /* YFImageCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78B429484B1A00A163C8 /* YFImageCategoryViewController.m */; };
+		BEBE78DA29484B1A00A163C8 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78BA29484B1A00A163C8 /* NSMutableArray+Safe.m */; };
+		BEBE78DB29484B1A00A163C8 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78BD29484B1A00A163C8 /* NSMutableDictionary+Safe.m */; };
+		BEBE78DC29484B1A00A163C8 /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78C229484B1A00A163C8 /* NSMutableString+Safe.m */; };
+		BEBE78DD29484B1A00A163C8 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78C429484B1A00A163C8 /* NSDictionary+Safe.m */; };
+		BEBE78DE29484B1A00A163C8 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78C529484B1A00A163C8 /* NSObject+Swizzling.m */; };
+		BEBE78DF29484B1A00A163C8 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78C629484B1A00A163C8 /* NSArray+Safe.m */; };
+		BEBE78E029484B1A00A163C8 /* NSObject+ImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78C729484B1A00A163C8 /* NSObject+ImpChangeTool.m */; };
+		BEBE78E129484B1A00A163C8 /* YFSafeObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE78C829484B1A00A163C8 /* YFSafeObjectViewController.m */; };
 		ED1B2C64949889CB29EE38E9 /* Pods_WYLNumberKeboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21A08B2E011A41AB25C7DCA /* Pods_WYLNumberKeboardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +112,29 @@
 		740D3B5E8C509E0389CB3771 /* Pods-WYLNumberKeboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard.debug.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard.debug.xcconfig"; sourceTree = "<group>"; };
 		A21A08B2E011A41AB25C7DCA /* Pods_WYLNumberKeboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLNumberKeboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0F59CE289A738A007B68DD /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		BE2A5C1928ADEC3200A33CA6 /* UIKit.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = UIKit.md; sourceTree = "<group>"; };
+		BE2A5C1A28ADEC3200A33CA6 /* Network.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Network.md; sourceTree = "<group>"; };
+		BE2A5C1B28ADEC3200A33CA6 /* Data-storage.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Data-storage.md"; sourceTree = "<group>"; };
+		BE2A5C1C28ADEC3200A33CA6 /* Animation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Animation.md; sourceTree = "<group>"; };
+		BE2A5C1D28ADEC3200A33CA6 /* Message-passing.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Message-passing.md"; sourceTree = "<group>"; };
+		BE2A5C1E28ADEC3200A33CA6 /* Multi-thread.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Multi-thread.md"; sourceTree = "<group>"; };
+		BE2A5C1F28ADEC3200A33CA6 /* WebView.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = WebView.md; sourceTree = "<group>"; };
+		BE2A5C2028ADEC3200A33CA6 /* Runloop.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Runloop.md; sourceTree = "<group>"; };
+		BE2A5C2128ADEC3200A33CA6 /* Code-management.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Code-management.md"; sourceTree = "<group>"; };
+		BE2A5C2228ADEC3200A33CA6 /* Performance-optimization.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Performance-optimization.md"; sourceTree = "<group>"; };
+		BE2A5C2328ADEC3200A33CA6 /* Image-processing.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Image-processing.md"; sourceTree = "<group>"; };
+		BE2A5C2428ADEC3200A33CA6 /* Memory-management.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Memory-management.md"; sourceTree = "<group>"; };
+		BE2A5C2528ADEC3200A33CA6 /* Data-structure.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Data-structure.md"; sourceTree = "<group>"; };
+		BE2A5C2628ADEC3200A33CA6 /* Component-based.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Component-based.md"; sourceTree = "<group>"; };
+		BE2A5C2728ADEC3200A33CA6 /* Arithmetic.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Arithmetic.md; sourceTree = "<group>"; };
+		BE2A5C2828ADEC3200A33CA6 /* Design-patterns.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Design-patterns.md"; sourceTree = "<group>"; };
+		BE2A5C2928ADEC3200A33CA6 /* Source-code.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Source-code.md"; sourceTree = "<group>"; };
+		BE2A5C2A28ADEC3200A33CA6 /* Foundation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Foundation.md; sourceTree = "<group>"; };
+		BE2A5C2B28ADEC3200A33CA6 /* Continuous-integration.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Continuous-integration.md"; sourceTree = "<group>"; };
+		BE2A5C2C28ADEC3200A33CA6 /* Data-encryption.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Data-encryption.md"; sourceTree = "<group>"; };
+		BE2A5C2D28ADEC3200A33CA6 /* Project-organization.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Project-organization.md"; sourceTree = "<group>"; };
+		BE2A5C2E28ADEC3200A33CA6 /* Runtime.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Runtime.md; sourceTree = "<group>"; };
+		BE2A5C2F28ADEC3200A33CA6 /* Debug-tips.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Debug-tips.md"; sourceTree = "<group>"; };
 		BE34A87028A48B5E0020653A /* EliminateIfElse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminateIfElse.swift; sourceTree = "<group>"; };
 		BE34A87228A4A1050020653A /* MBProgressHUDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDExtension.swift; sourceTree = "<group>"; };
 		BE34A87428A4A5040020653A /* loading_dynamic_icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_dynamic_icon.gif; sourceTree = "<group>"; };
@@ -74,6 +156,71 @@
 		BE9E3165288FCA4000813AAE /* WYLNumberKeboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLNumberKeboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BE9E3173288FCAF900813AAE /* WYLNumberKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYLNumberKeyboardView.swift; sourceTree = "<group>"; };
 		BE9E3175288FEAD600813AAE /* WYLNumberKeboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYLNumberKeboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEA58A9B2942E66A003FF9A6 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BEBE786929484A5C00A163C8 /* YFSnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFSnowViewController.m; sourceTree = "<group>"; };
+		BEBE786D29484A5C00A163C8 /* YFEmitterRainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEmitterRainCell.m; sourceTree = "<group>"; };
+		BEBE786E29484A5C00A163C8 /* YFEmitterRainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEmitterRainCell.h; sourceTree = "<group>"; };
+		BEBE786F29484A5C00A163C8 /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		BEBE787129484A5C00A163C8 /* YFEmitterLeavesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEmitterLeavesCell.m; sourceTree = "<group>"; };
+		BEBE787229484A5C00A163C8 /* YFEmitterLeavesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEmitterLeavesCell.h; sourceTree = "<group>"; };
+		BEBE787329484A5C00A163C8 /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		BEBE787529484A5C00A163C8 /* YFPublicParticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPublicParticleCell.m; sourceTree = "<group>"; };
+		BEBE787629484A5C00A163C8 /* YFPublicParticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPublicParticleCell.h; sourceTree = "<group>"; };
+		BEBE787829484A5C00A163C8 /* YFEmitterCustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEmitterCustomLayer.m; sourceTree = "<group>"; };
+		BEBE787929484A5C00A163C8 /* YFEmitterCustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEmitterCustomLayer.h; sourceTree = "<group>"; };
+		BEBE787B29484A5C00A163C8 /* YFEmitterSnowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEmitterSnowCell.h; sourceTree = "<group>"; };
+		BEBE787C29484A5C00A163C8 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		BEBE787D29484A5C00A163C8 /* YFEmitterSnowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEmitterSnowCell.m; sourceTree = "<group>"; };
+		BEBE787F29484A5C00A163C8 /* YFAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAnimationManager.m; sourceTree = "<group>"; };
+		BEBE788029484A5C00A163C8 /* YFAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAnimationManager.h; sourceTree = "<group>"; };
+		BEBE788129484A5C00A163C8 /* YFSnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFSnowViewController.h; sourceTree = "<group>"; };
+		BEBE788429484A5D00A163C8 /* YFRippleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFRippleViewController.h; sourceTree = "<group>"; };
+		BEBE788529484A5D00A163C8 /* XXBRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBRippleView.m; sourceTree = "<group>"; };
+		BEBE788629484A5D00A163C8 /* YFRippleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFRippleViewController.m; sourceTree = "<group>"; };
+		BEBE788729484A5D00A163C8 /* XXBRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBRippleView.h; sourceTree = "<group>"; };
+		BEBE789729484B1A00A163C8 /* UIButton+TitlePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitlePosition.h"; sourceTree = "<group>"; };
+		BEBE789829484B1A00A163C8 /* placeholder30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder30.png; sourceTree = "<group>"; };
+		BEBE789929484B1A00A163C8 /* YFButtonCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFButtonCategoryViewController.m; sourceTree = "<group>"; };
+		BEBE789A29484B1A00A163C8 /* UIButton+TitlePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitlePosition.m"; sourceTree = "<group>"; };
+		BEBE789B29484B1A00A163C8 /* YFButtonCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFButtonCategoryViewController.h; sourceTree = "<group>"; };
+		BEBE789D29484B1A00A163C8 /* YFEmptyDataSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEmptyDataSetViewController.h; sourceTree = "<group>"; };
+		BEBE789E29484B1A00A163C8 /* YFEmptyDataSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEmptyDataSetViewController.m; sourceTree = "<group>"; };
+		BEBE789F29484B1A00A163C8 /* YFEmptyDataSetViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YFEmptyDataSetViewController.storyboard; sourceTree = "<group>"; };
+		BEBE78A129484B1A00A163C8 /* placeholder_fancy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_fancy.png; sourceTree = "<group>"; };
+		BEBE78A229484B1A00A163C8 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		BEBE78A329484B1A00A163C8 /* UITableView+Gzw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Gzw.m"; sourceTree = "<group>"; };
+		BEBE78A429484B1A00A163C8 /* UITableView+Gzw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Gzw.h"; sourceTree = "<group>"; };
+		BEBE78A529484B1A00A163C8 /* placeholder_fancy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_fancy@2x.png"; sourceTree = "<group>"; };
+		BEBE78A629484B1A00A163C8 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		BEBE78A729484B1A00A163C8 /* GzwTableViewLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GzwTableViewLoading.h; sourceTree = "<group>"; };
+		BEBE78A929484B1A00A163C8 /* YFColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFColorViewController.h; sourceTree = "<group>"; };
+		BEBE78AA29484B1A00A163C8 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		BEBE78AB29484B1A00A163C8 /* YFColorViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YFColorViewController.storyboard; sourceTree = "<group>"; };
+		BEBE78AC29484B1A00A163C8 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		BEBE78AD29484B1A00A163C8 /* YFColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFColorViewController.m; sourceTree = "<group>"; };
+		BEBE78B029484B1A00A163C8 /* UIImage+CJZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CJZ.h"; sourceTree = "<group>"; };
+		BEBE78B129484B1A00A163C8 /* UIImage+EXtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EXtension.m"; sourceTree = "<group>"; };
+		BEBE78B229484B1A00A163C8 /* YFImageCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFImageCategoryViewController.h; sourceTree = "<group>"; };
+		BEBE78B329484B1A00A163C8 /* UIImage+CJZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CJZ.m"; sourceTree = "<group>"; };
+		BEBE78B429484B1A00A163C8 /* YFImageCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFImageCategoryViewController.m; sourceTree = "<group>"; };
+		BEBE78B529484B1A00A163C8 /* UIImage+EXtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EXtension.h"; sourceTree = "<group>"; };
+		BEBE78B929484B1A00A163C8 /* NSMutableString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
+		BEBE78BA29484B1A00A163C8 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		BEBE78BB29484B1A00A163C8 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		BEBE78BC29484B1A00A163C8 /* SafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeObject.h; sourceTree = "<group>"; };
+		BEBE78BD29484B1A00A163C8 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		BEBE78BE29484B1A00A163C8 /* NSObject+ImpChangeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImpChangeTool.h"; sourceTree = "<group>"; };
+		BEBE78BF29484B1A00A163C8 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		BEBE78C029484B1A00A163C8 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		BEBE78C129484B1A00A163C8 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		BEBE78C229484B1A00A163C8 /* NSMutableString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
+		BEBE78C329484B1A00A163C8 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		BEBE78C429484B1A00A163C8 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		BEBE78C529484B1A00A163C8 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		BEBE78C629484B1A00A163C8 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		BEBE78C729484B1A00A163C8 /* NSObject+ImpChangeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImpChangeTool.m"; sourceTree = "<group>"; };
+		BEBE78C829484B1A00A163C8 /* YFSafeObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFSafeObjectViewController.m; sourceTree = "<group>"; };
+		BEBE78C929484B1A00A163C8 /* YFSafeObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFSafeObjectViewController.h; sourceTree = "<group>"; };
 		D3A2D25408A43F86E9851092 /* Pods-WYLNumberKeboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboard.release.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboard/Pods-WYLNumberKeboard.release.xcconfig"; sourceTree = "<group>"; };
 		D611C636724AAB7D126D913F /* Pods-WYLNumberKeboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLNumberKeboardTests.debug.xcconfig"; path = "Target Support Files/Pods-WYLNumberKeboardTests/Pods-WYLNumberKeboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC6498F977FE7E85D5A5BC3E /* Pods_WYLNumberKeboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLNumberKeboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +277,36 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BE2A5C1828ADEC3200A33CA6 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A5C1928ADEC3200A33CA6 /* UIKit.md */,
+				BE2A5C1A28ADEC3200A33CA6 /* Network.md */,
+				BE2A5C1B28ADEC3200A33CA6 /* Data-storage.md */,
+				BE2A5C1C28ADEC3200A33CA6 /* Animation.md */,
+				BE2A5C1D28ADEC3200A33CA6 /* Message-passing.md */,
+				BE2A5C1E28ADEC3200A33CA6 /* Multi-thread.md */,
+				BE2A5C1F28ADEC3200A33CA6 /* WebView.md */,
+				BE2A5C2028ADEC3200A33CA6 /* Runloop.md */,
+				BE2A5C2128ADEC3200A33CA6 /* Code-management.md */,
+				BE2A5C2228ADEC3200A33CA6 /* Performance-optimization.md */,
+				BE2A5C2328ADEC3200A33CA6 /* Image-processing.md */,
+				BE2A5C2428ADEC3200A33CA6 /* Memory-management.md */,
+				BE2A5C2528ADEC3200A33CA6 /* Data-structure.md */,
+				BE2A5C2628ADEC3200A33CA6 /* Component-based.md */,
+				BE2A5C2728ADEC3200A33CA6 /* Arithmetic.md */,
+				BE2A5C2828ADEC3200A33CA6 /* Design-patterns.md */,
+				BE2A5C2928ADEC3200A33CA6 /* Source-code.md */,
+				BE2A5C2A28ADEC3200A33CA6 /* Foundation.md */,
+				BE2A5C2B28ADEC3200A33CA6 /* Continuous-integration.md */,
+				BE2A5C2C28ADEC3200A33CA6 /* Data-encryption.md */,
+				BE2A5C2D28ADEC3200A33CA6 /* Project-organization.md */,
+				BE2A5C2E28ADEC3200A33CA6 /* Runtime.md */,
+				BE2A5C2F28ADEC3200A33CA6 /* Debug-tips.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
 		BE9E3136288FCA3E00813AAE = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +332,11 @@
 		BE9E3141288FCA3E00813AAE /* WYLNumberKeboard */ = {
 			isa = PBXGroup;
 			children = (
+				BEBE789529484B1A00A163C8 /* 11 - Tools(常用工具) */,
+				BEBE786529484A3400A163C8 /* Animation */,
+				BEBE7723294813B100A163C8 /* Camera */,
+				BEA58A9B2942E66A003FF9A6 /* String+Extension.swift */,
+				BE2A5C1828ADEC3200A33CA6 /* docs */,
 				BE9E3172288FCADB00813AAE /* KeyboardView */,
 				BE9E3142288FCA3E00813AAE /* AppDelegate.swift */,
 				BE9E3144288FCA3E00813AAE /* SceneDelegate.swift */,
@@ -198,6 +380,235 @@
 				BE9E3173288FCAF900813AAE /* WYLNumberKeyboardView.swift */,
 			);
 			path = KeyboardView;
+			sourceTree = "<group>";
+		};
+		BEBE7723294813B100A163C8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		BEBE786529484A3400A163C8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE788329484A5D00A163C8 /* 01 - 放大水波纹 */,
+				BEBE786629484A5C00A163C8 /* 02 - 粒子发射器 */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		BEBE786629484A5C00A163C8 /* 02 - 粒子发射器 */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE786829484A5C00A163C8 /* 01 - Snow */,
+			);
+			path = "02 - 粒子发射器";
+			sourceTree = "<group>";
+		};
+		BEBE786829484A5C00A163C8 /* 01 - Snow */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE788129484A5C00A163C8 /* YFSnowViewController.h */,
+				BEBE786929484A5C00A163C8 /* YFSnowViewController.m */,
+				BEBE786A29484A5C00A163C8 /* YFAnimationStyle */,
+				BEBE787E29484A5C00A163C8 /* YFAnimationManager */,
+			);
+			path = "01 - Snow";
+			sourceTree = "<group>";
+		};
+		BEBE786A29484A5C00A163C8 /* YFAnimationStyle */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE786B29484A5C00A163C8 /* YFAnimationEmitterStyle */,
+			);
+			path = YFAnimationStyle;
+			sourceTree = "<group>";
+		};
+		BEBE786B29484A5C00A163C8 /* YFAnimationEmitterStyle */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE786C29484A5C00A163C8 /* RainCell */,
+				BEBE787029484A5C00A163C8 /* LevaesCell */,
+				BEBE787429484A5C00A163C8 /* PublicParticleCell */,
+				BEBE787729484A5C00A163C8 /* EmitterLayer */,
+				BEBE787A29484A5C00A163C8 /* SnowCell */,
+			);
+			path = YFAnimationEmitterStyle;
+			sourceTree = "<group>";
+		};
+		BEBE786C29484A5C00A163C8 /* RainCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE786E29484A5C00A163C8 /* YFEmitterRainCell.h */,
+				BEBE786D29484A5C00A163C8 /* YFEmitterRainCell.m */,
+				BEBE786F29484A5C00A163C8 /* rain.png */,
+			);
+			path = RainCell;
+			sourceTree = "<group>";
+		};
+		BEBE787029484A5C00A163C8 /* LevaesCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE787129484A5C00A163C8 /* YFEmitterLeavesCell.m */,
+				BEBE787229484A5C00A163C8 /* YFEmitterLeavesCell.h */,
+				BEBE787329484A5C00A163C8 /* leaves.png */,
+			);
+			path = LevaesCell;
+			sourceTree = "<group>";
+		};
+		BEBE787429484A5C00A163C8 /* PublicParticleCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE787529484A5C00A163C8 /* YFPublicParticleCell.m */,
+				BEBE787629484A5C00A163C8 /* YFPublicParticleCell.h */,
+			);
+			path = PublicParticleCell;
+			sourceTree = "<group>";
+		};
+		BEBE787729484A5C00A163C8 /* EmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE787829484A5C00A163C8 /* YFEmitterCustomLayer.m */,
+				BEBE787929484A5C00A163C8 /* YFEmitterCustomLayer.h */,
+			);
+			path = EmitterLayer;
+			sourceTree = "<group>";
+		};
+		BEBE787A29484A5C00A163C8 /* SnowCell */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE787B29484A5C00A163C8 /* YFEmitterSnowCell.h */,
+				BEBE787C29484A5C00A163C8 /* snow.png */,
+				BEBE787D29484A5C00A163C8 /* YFEmitterSnowCell.m */,
+			);
+			path = SnowCell;
+			sourceTree = "<group>";
+		};
+		BEBE787E29484A5C00A163C8 /* YFAnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE787F29484A5C00A163C8 /* YFAnimationManager.m */,
+				BEBE788029484A5C00A163C8 /* YFAnimationManager.h */,
+			);
+			path = YFAnimationManager;
+			sourceTree = "<group>";
+		};
+		BEBE788329484A5D00A163C8 /* 01 - 放大水波纹 */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE788429484A5D00A163C8 /* YFRippleViewController.h */,
+				BEBE788629484A5D00A163C8 /* YFRippleViewController.m */,
+				BEBE788729484A5D00A163C8 /* XXBRippleView.h */,
+				BEBE788529484A5D00A163C8 /* XXBRippleView.m */,
+			);
+			path = "01 - 放大水波纹";
+			sourceTree = "<group>";
+		};
+		BEBE789529484B1A00A163C8 /* 11 - Tools(常用工具) */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE789629484B1A00A163C8 /* UIButton */,
+				BEBE789C29484B1A00A163C8 /* EmptyDataSet */,
+				BEBE78A829484B1A00A163C8 /* Color */,
+				BEBE78AF29484B1A00A163C8 /* Image */,
+				BEBE78B729484B1A00A163C8 /* SafeTool */,
+			);
+			path = "11 - Tools(常用工具)";
+			sourceTree = "<group>";
+		};
+		BEBE789629484B1A00A163C8 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE789729484B1A00A163C8 /* UIButton+TitlePosition.h */,
+				BEBE789829484B1A00A163C8 /* placeholder30.png */,
+				BEBE789929484B1A00A163C8 /* YFButtonCategoryViewController.m */,
+				BEBE789A29484B1A00A163C8 /* UIButton+TitlePosition.m */,
+				BEBE789B29484B1A00A163C8 /* YFButtonCategoryViewController.h */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		BEBE789C29484B1A00A163C8 /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE789D29484B1A00A163C8 /* YFEmptyDataSetViewController.h */,
+				BEBE789E29484B1A00A163C8 /* YFEmptyDataSetViewController.m */,
+				BEBE789F29484B1A00A163C8 /* YFEmptyDataSetViewController.storyboard */,
+				BEBE78A029484B1A00A163C8 /* GzwTableViewLoading */,
+			);
+			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
+		BEBE78A029484B1A00A163C8 /* GzwTableViewLoading */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE78A129484B1A00A163C8 /* placeholder_fancy.png */,
+				BEBE78A229484B1A00A163C8 /* UIScrollView+EmptyDataSet.m */,
+				BEBE78A329484B1A00A163C8 /* UITableView+Gzw.m */,
+				BEBE78A429484B1A00A163C8 /* UITableView+Gzw.h */,
+				BEBE78A529484B1A00A163C8 /* placeholder_fancy@2x.png */,
+				BEBE78A629484B1A00A163C8 /* UIScrollView+EmptyDataSet.h */,
+				BEBE78A729484B1A00A163C8 /* GzwTableViewLoading.h */,
+			);
+			path = GzwTableViewLoading;
+			sourceTree = "<group>";
+		};
+		BEBE78A829484B1A00A163C8 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE78A929484B1A00A163C8 /* YFColorViewController.h */,
+				BEBE78AA29484B1A00A163C8 /* UIColor+Extension.h */,
+				BEBE78AB29484B1A00A163C8 /* YFColorViewController.storyboard */,
+				BEBE78AC29484B1A00A163C8 /* UIColor+Extension.m */,
+				BEBE78AD29484B1A00A163C8 /* YFColorViewController.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		BEBE78AF29484B1A00A163C8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE78B029484B1A00A163C8 /* UIImage+CJZ.h */,
+				BEBE78B129484B1A00A163C8 /* UIImage+EXtension.m */,
+				BEBE78B229484B1A00A163C8 /* YFImageCategoryViewController.h */,
+				BEBE78B329484B1A00A163C8 /* UIImage+CJZ.m */,
+				BEBE78B429484B1A00A163C8 /* YFImageCategoryViewController.m */,
+				BEBE78B529484B1A00A163C8 /* UIImage+EXtension.h */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		BEBE78B729484B1A00A163C8 /* SafeTool */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE78B829484B1A00A163C8 /* SafeObject */,
+				BEBE78C829484B1A00A163C8 /* YFSafeObjectViewController.m */,
+				BEBE78C929484B1A00A163C8 /* YFSafeObjectViewController.h */,
+			);
+			path = SafeTool;
+			sourceTree = "<group>";
+		};
+		BEBE78B829484B1A00A163C8 /* SafeObject */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE78B929484B1A00A163C8 /* NSMutableString+Safe.h */,
+				BEBE78BA29484B1A00A163C8 /* NSMutableArray+Safe.m */,
+				BEBE78BB29484B1A00A163C8 /* NSDictionary+Safe.h */,
+				BEBE78BC29484B1A00A163C8 /* SafeObject.h */,
+				BEBE78BD29484B1A00A163C8 /* NSMutableDictionary+Safe.m */,
+				BEBE78BE29484B1A00A163C8 /* NSObject+ImpChangeTool.h */,
+				BEBE78BF29484B1A00A163C8 /* NSArray+Safe.h */,
+				BEBE78C029484B1A00A163C8 /* NSObject+Swizzling.h */,
+				BEBE78C129484B1A00A163C8 /* NSMutableArray+Safe.h */,
+				BEBE78C229484B1A00A163C8 /* NSMutableString+Safe.m */,
+				BEBE78C329484B1A00A163C8 /* NSMutableDictionary+Safe.h */,
+				BEBE78C429484B1A00A163C8 /* NSDictionary+Safe.m */,
+				BEBE78C529484B1A00A163C8 /* NSObject+Swizzling.m */,
+				BEBE78C629484B1A00A163C8 /* NSArray+Safe.m */,
+				BEBE78C729484B1A00A163C8 /* NSObject+ImpChangeTool.m */,
+			);
+			path = SafeObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,11 +721,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2A5C3928ADEC3300A33CA6 /* Performance-optimization.md in Resources */,
+				BEBE788C29484A5D00A163C8 /* leaves.png in Resources */,
+				BE2A5C3828ADEC3300A33CA6 /* Code-management.md in Resources */,
+				BE2A5C4028ADEC3300A33CA6 /* Source-code.md in Resources */,
+				BEBE788F29484A5D00A163C8 /* snow.png in Resources */,
 				BE7F7784288FEFBA00F19FF2 /* OCVC.xib in Resources */,
+				BE2A5C3128ADEC3300A33CA6 /* Network.md in Resources */,
+				BE2A5C4428ADEC3300A33CA6 /* Project-organization.md in Resources */,
+				BE2A5C3228ADEC3300A33CA6 /* Data-storage.md in Resources */,
+				BE2A5C3728ADEC3300A33CA6 /* Runloop.md in Resources */,
+				BEBE78CA29484B1A00A163C8 /* placeholder30.png in Resources */,
+				BE2A5C3328ADEC3300A33CA6 /* Animation.md in Resources */,
+				BE2A5C4228ADEC3300A33CA6 /* Continuous-integration.md in Resources */,
+				BE2A5C3D28ADEC3300A33CA6 /* Component-based.md in Resources */,
+				BEBE788A29484A5D00A163C8 /* rain.png in Resources */,
+				BEBE78D229484B1A00A163C8 /* placeholder_fancy@2x.png in Resources */,
+				BE2A5C3428ADEC3300A33CA6 /* Message-passing.md in Resources */,
+				BE2A5C3528ADEC3300A33CA6 /* Multi-thread.md in Resources */,
+				BE2A5C3E28ADEC3300A33CA6 /* Arithmetic.md in Resources */,
 				BE9E314F288FCA4000813AAE /* LaunchScreen.storyboard in Resources */,
+				BE2A5C4528ADEC3300A33CA6 /* Runtime.md in Resources */,
+				BE2A5C3B28ADEC3300A33CA6 /* Memory-management.md in Resources */,
+				BE2A5C4328ADEC3300A33CA6 /* Data-encryption.md in Resources */,
 				BE9E314C288FCA4000813AAE /* Assets.xcassets in Resources */,
+				BE2A5C3028ADEC3200A33CA6 /* UIKit.md in Resources */,
 				BE9E314A288FCA3E00813AAE /* Main.storyboard in Resources */,
+				BE2A5C3C28ADEC3300A33CA6 /* Data-structure.md in Resources */,
+				BE2A5C3F28ADEC3300A33CA6 /* Design-patterns.md in Resources */,
+				BEBE78CF29484B1A00A163C8 /* placeholder_fancy.png in Resources */,
+				BE2A5C3628ADEC3300A33CA6 /* WebView.md in Resources */,
+				BE2A5C4628ADEC3300A33CA6 /* Debug-tips.md in Resources */,
+				BEBE78CE29484B1A00A163C8 /* YFEmptyDataSetViewController.storyboard in Resources */,
+				BEBE78D329484B1A00A163C8 /* YFColorViewController.storyboard in Resources */,
 				BE34A87528A4A5040020653A /* loading_dynamic_icon.gif in Resources */,
+				BE2A5C4128ADEC3300A33CA6 /* Foundation.md in Resources */,
+				BE2A5C3A28ADEC3300A33CA6 /* Image-processing.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,13 +884,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBE78E029484B1A00A163C8 /* NSObject+ImpChangeTool.m in Sources */,
+				BEBE78D029484B1A00A163C8 /* UIScrollView+EmptyDataSet.m in Sources */,
+				BEBE78DF29484B1A00A163C8 /* NSArray+Safe.m in Sources */,
 				BE0F59CF289A738A007B68DD /* MyView.swift in Sources */,
+				BEBE788B29484A5D00A163C8 /* YFEmitterLeavesCell.m in Sources */,
+				BEA58A9C2942E66A003FF9A6 /* String+Extension.swift in Sources */,
+				BEBE78CC29484B1A00A163C8 /* UIButton+TitlePosition.m in Sources */,
 				BE34A87328A4A1050020653A /* MBProgressHUDExtension.swift in Sources */,
 				BE7F7783288FEFBA00F19FF2 /* OCVC.m in Sources */,
+				BEBE78E129484B1A00A163C8 /* YFSafeObjectViewController.m in Sources */,
+				BEBE789329484A5D00A163C8 /* XXBRippleView.m in Sources */,
+				BEBE78DA29484B1A00A163C8 /* NSMutableArray+Safe.m in Sources */,
+				BEBE78CD29484B1A00A163C8 /* YFEmptyDataSetViewController.m in Sources */,
 				BE9E3147288FCA3E00813AAE /* ViewController.swift in Sources */,
+				BEBE788929484A5D00A163C8 /* YFEmitterRainCell.m in Sources */,
 				BE9E3143288FCA3E00813AAE /* AppDelegate.swift in Sources */,
+				BEBE788829484A5D00A163C8 /* YFSnowViewController.m in Sources */,
+				BEBE789429484A5D00A163C8 /* YFRippleViewController.m in Sources */,
+				BEBE789129484A5D00A163C8 /* YFAnimationManager.m in Sources */,
+				BEBE78D829484B1A00A163C8 /* UIImage+CJZ.m in Sources */,
 				BE9E3145288FCA3E00813AAE /* SceneDelegate.swift in Sources */,
+				BEBE789029484A5D00A163C8 /* YFEmitterSnowCell.m in Sources */,
 				BE34A87128A48B5E0020653A /* EliminateIfElse.swift in Sources */,
+				BEBE78D529484B1A00A163C8 /* YFColorViewController.m in Sources */,
+				BEBE78D129484B1A00A163C8 /* UITableView+Gzw.m in Sources */,
+				BEBE78D429484B1A00A163C8 /* UIColor+Extension.m in Sources */,
+				BEBE78DB29484B1A00A163C8 /* NSMutableDictionary+Safe.m in Sources */,
+				BEBE78D729484B1A00A163C8 /* UIImage+EXtension.m in Sources */,
+				BEBE78CB29484B1A00A163C8 /* YFButtonCategoryViewController.m in Sources */,
+				BEBE788D29484A5D00A163C8 /* YFPublicParticleCell.m in Sources */,
+				BEBE788E29484A5D00A163C8 /* YFEmitterCustomLayer.m in Sources */,
+				BEBE78DD29484B1A00A163C8 /* NSDictionary+Safe.m in Sources */,
+				BEBE78DC29484B1A00A163C8 /* NSMutableString+Safe.m in Sources */,
+				BEBE78DE29484B1A00A163C8 /* NSObject+Swizzling.m in Sources */,
+				BEBE78D929484B1A00A163C8 /* YFImageCategoryViewController.m in Sources */,
 				BE9E3174288FCAF900813AAE /* WYLNumberKeyboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
